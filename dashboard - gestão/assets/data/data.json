@@ -1,0 +1,178 @@
+{
+  "LS_KEY": "gestaoDashboardState_v1",
+  "defaultState": {
+    "advisors": [],
+    "attMonthKey": null,
+    "attMonths": {},
+    "metaRows": [],
+    "foco": "",
+    "tier3Profiles": [],
+    "tier3MonthKey": null,
+    "tier3Months": {},
+    "fbClients": [
+      {
+        "id": "seed1",
+        "codigo": "CLI-01",
+        "nome": "Carlos Eduardo",
+        "patrimonio": 250000,
+        "advisor": "luiz",
+        "status": "aprovado"
+      },
+      {
+        "id": "seed2",
+        "codigo": "CLI-02",
+        "nome": "Mariana Silva",
+        "patrimonio": 800000,
+        "advisor": "luiz",
+        "status": "pendente"
+      },
+      {
+        "id": "seed3",
+        "codigo": "CLI-03",
+        "nome": "Roberto Santos",
+        "patrimonio": 1200000,
+        "advisor": "luiz",
+        "status": "aprovado"
+      },
+      {
+        "id": "seed4",
+        "codigo": "CLI-04",
+        "nome": "Fernanda Lima",
+        "patrimonio": 150000,
+        "advisor": "guilherme",
+        "status": "aprovado"
+      },
+      {
+        "id": "seed5",
+        "codigo": "CLI-05",
+        "nome": "Lucas Mendes",
+        "patrimonio": 450000,
+        "advisor": "guilherme",
+        "status": "aprovado"
+      },
+      {
+        "id": "seed6",
+        "codigo": "CLI-06",
+        "nome": "Juliana Costa",
+        "patrimonio": 950000,
+        "advisor": "guilherme",
+        "status": "pendente"
+      }
+    ],
+    "brackets": [
+      {
+        "label": "Até 100k",
+        "pct": 1.5
+      },
+      {
+        "label": "Até 200k",
+        "pct": 1.4
+      },
+      {
+        "label": "Até 300k",
+        "pct": 1.3
+      },
+      {
+        "label": "Até 500k",
+        "pct": 1.2
+      },
+      {
+        "label": "Até 1MM",
+        "pct": 1.1
+      },
+      {
+        "label": "1MM+",
+        "pct": 1
+      }
+    ],
+    "mapeamentos": []
+  },
+  "CHEGADA_FIELDS": [
+    {
+      "key": "antes9",
+      "label": "Antes das 9h",
+      "color": "#2dd4c8"
+    },
+    {
+      "key": "ate930",
+      "label": "Até 9h30",
+      "color": "#8b5cf6"
+    },
+    {
+      "key": "depois930",
+      "label": "Depois de 9h30",
+      "color": "#f5a623"
+    },
+    {
+      "key": "depoisAlmoco",
+      "label": "Depois do almoço",
+      "color": "#ec4faa"
+    },
+    {
+      "key": "faltantes",
+      "label": "Faltou",
+      "color": "#f14668"
+    }
+  ],
+  "SAIDA_FIELDS": [
+    {
+      "key": "antes18",
+      "label": "Antes das 18h",
+      "color": "#f14668"
+    },
+    {
+      "key": "depois18",
+      "label": "Depois das 18h",
+      "color": "#22c58e"
+    }
+  ],
+  "MAP_SEGMENTOS": [
+    {
+      "key": "seguro",
+      "label": "Seguro",
+      "color": "#ec4faa"
+    },
+    {
+      "key": "consorcio",
+      "label": "Consórcio",
+      "color": "#3bb8f5"
+    },
+    {
+      "key": "plano-saude",
+      "label": "Plano de Saúde",
+      "color": "#f5a623"
+    },
+    {
+      "key": "mentoria",
+      "label": "Mentoria",
+      "color": "#22c58e"
+    },
+    {
+      "key": "contabilidade",
+      "label": "Contabilidade",
+      "color": "#8b5cf6"
+    }
+  ],
+  "MAP_STATUS": [
+    {
+      "key": "nao-iniciado",
+      "label": "Não iniciado",
+      "color": "#1e3a8a"
+    },
+    {
+      "key": "mapeando",
+      "label": "Mapeando",
+      "color": "#f5d020"
+    },
+    {
+      "key": "concluido",
+      "label": "Concluído",
+      "color": "#22c58e"
+    },
+    {
+      "key": "perdido",
+      "label": "Perdido",
+      "color": "#f14668"
+    }
+  ]
+}
